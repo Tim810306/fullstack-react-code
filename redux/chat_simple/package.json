@@ -1,0 +1,22 @@
+{
+  "name": "chat_simple",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  },
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "concurrently": "5.2.0",
+    "react-scripts": "3.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "e2e": "nightwatch",
+    "run-e2e": "concurrently -k \"npm start\" \"npm run e2e\"",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
